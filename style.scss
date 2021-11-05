@@ -1,0 +1,24 @@
+.container {
+    position: relative;
+    padding: 0px;
+}
+
+.textBlock {
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 27px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    opacity: 30%;
+}
+ .imageInArticle {
+     width: 100%;
+ }
+
+ h3, p {
+     opacity: 100%;
+ }
