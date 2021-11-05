@@ -6,9 +6,20 @@
 /*70% opacity*/
 /*Border and stroke*/
 /*STYLES*/
-/*typography*/
 body {
-  background: #ffffff;
+  background-color: #ffffff;
+}
+
+.ad {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.ad-text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */

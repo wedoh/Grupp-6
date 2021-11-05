@@ -2,16 +2,18 @@
 @import "colors.scss";
 
 
-/*typography*/
-@import "typography.scss";
-
-
 body {
-  background: $background-color;
-  
-  }
-  
-  
+  background-color: $background-color;
+}
 
+.ad {
+position: relative;
+text-align: center;
+color: white;
+}
 
-
+.ad-text {
+position: absolute;
+top: 8px;
+left: 16px;
+}
