@@ -6,20 +6,24 @@
 /*70% opacity*/
 /*Border and stroke*/
 /*STYLES*/
-body {
-  background-color: #ffffff;
-}
-
-.ad {
+#ad {
   position: relative;
   text-align: center;
   color: white;
 }
-
-.ad-text {
+#ad h3 {
   position: absolute;
   top: 8px;
   left: 16px;
+}
+#ad img {
+  object-fit: cover;
+  width: 100%;
+  height: 140px;
+}
+
+body {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

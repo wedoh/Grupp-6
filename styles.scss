@@ -1,19 +1,7 @@
 /*colors*/
 @import "colors.scss";
-
+@import "ad.scss";
 
 body {
   background-color: $background-color;
-}
-
-.ad {
-position: relative;
-text-align: center;
-color: white;
-}
-
-.ad-text {
-position: absolute;
-top: 8px;
-left: 16px;
 }
