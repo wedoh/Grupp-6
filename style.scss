@@ -1,3 +1,4 @@
+//-------------------- Containers START --------------------
 .container {
     position: relative;
     padding: 0px;
@@ -17,7 +18,9 @@
  .imageInArticle {
      width: 100%;
  }
+ //-------------------- Containers END --------------------
 
+ //-------------------- Text START --------------------
  h4, p {
      opacity: 100%;
      margin-bottom: 0px;
@@ -40,7 +43,18 @@ p:nth-child(3) {
 P:nth-child(4) {
     font-size: 10px;
 }
+//-------------------- Text END --------------------
 
  .icon {
      width: 78px;
  }
+
+// how do you get this icon code to work??
+//  arrowIcon {
+//     position: absolute;
+//     width: 77.89px;
+//     height: 10.9px;
+//     left: calc(50% - 77.89px/2 + 67.64px);
+//     top: calc(50% - 10.9px/2 + 61.3px);
+//     background: #FFFFFF;
+//  }
