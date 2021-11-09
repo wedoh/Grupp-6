@@ -18,6 +18,15 @@
      width: 100%;
  }
 
- h3, p {
+ h4, p {
      opacity: 100%;
+     margin-bottom: 0px;
+ }
+
+p:nth-child(1) {
+    font-size: 10px;
+}
+
+ .icon {
+     width: 78px;
  }
