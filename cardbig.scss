@@ -12,16 +12,17 @@
     padding-left: 27px;
     padding-right: 16px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; //Might not be needed
     width: 100%;
 }
- .imageInArticle {
-     width: 100%;
- }
- //-------------------- Containers END --------------------
 
- //-------------------- Text START --------------------
- p {
+.imageInArticle {
+     width: 100%;
+}
+//-------------------- Containers END --------------------
+
+//-------------------- Text START --------------------
+p {
      opacity: 100%;
      margin-bottom: 0px;
  }
