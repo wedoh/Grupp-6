@@ -8,3 +8,9 @@
 body {
   background-color: $background-color;
 }
+
+hr {
+  background-color: $input-stroke-color;
+  width: 1063px;
+  height: 1px;
+}
