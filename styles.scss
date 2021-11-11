@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 /* Error: Can't find stylesheet to import.
  *   ,
@@ -708,3 +709,20 @@ body::before {
 /*# sourceMappingURL=styles.scss.map */
 
 /*# sourceMappingURL=styles.scss.map */
+=======
+/*import*/
+@import "colors.scss";
+@import "ad.scss";
+@import "typography.scss";
+@import "navbar.scss";
+@import "cardbig.scss";
+
+body {
+  background-color: $background-color;
+}
+
+hr {
+  background-color: $input-stroke-color;
+  height: 1px;
+}
+>>>>>>> master

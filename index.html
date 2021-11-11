@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
       <link rel="preconnect" href="http://fonts.googleapis.com">
       <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
       <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Open+Sabs:wght@300&display=swap" rel="stylesheet">
@@ -14,57 +15,114 @@
 
   <body>
 
-  <nav>
-    <section class="navbar navbar-expand-lg navbar-light bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Logotype</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <section class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Press</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Careers</a>
-
-              <section class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Label 1</a>
-                <a class="dropdown-item" href="#">Label 2</a>
-              <section class="dropdown-divider"></section>
-                <a class="dropdown-item" href="#">Label 3</a>
-              </section>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <i class="material-icons">search</i>
-            </form>
+  <!-- Navbar START-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#"> <h2>Logotype</h2> </a>
+      <!-- Hamburger menu icon -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Link list -->
+      <section class="collapse navbar-collapse justify-content-between">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Press</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <!-- Search box -->
+        <section class="input-group-btn">
+          <form class="form-inline has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control mr-sm-2" aria-label="search" placeholder="Search articles">
+          </form>
         </section>
+      </section>
     </nav>
+    <!-- Navbar END -->
 
-  <main class="container">
-    <section class="row">
-      <article class="col-sm col-lg-8">
 
-      </article>
+    <main class="container mt-3">
+      <section class="row">
+        <article class="col-sm col-lg-7">
+          <!---------------------- Main Big-card goes here. Replace this with code ---------------------->
+          <section class="container-card">
+            <img src="./Card-Big.png" class="imageInArticle" alt="">
+            <article class="textBlock row">
+              <section class="col-10">
+                <p>Published Fri, 29 Oct 2021 by Roz</p>
+                <h2>Biden Begins a Diplomatic Marathon With a Visit to the Vatican</h2>
+                <p>President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and a climate gathering in Glasgow.</p>
+              </section>
 
-      <section>
-        <article class="col-sm col-lg-4">
+              <section class="d-flex align-self-end flex-column mr-0">
+                <p>Read more</p>
+                <img src="./FrameArrow.svg" alt="">
+              </section>
+
+            </article>
+          </section>
 
         </article>
-      </section>
+
+        <section class="col-sm col-lg d-flex flex-column">
+            <article class="h-50 pb-2 w-100">
+              <!-- -------------------- First card in the right column goes here. Replace this with code---------------------->
+              <section class="container-card">
+                <img src="./Card-Big 2.png" class="imageInArticle" alt="">
+                <article class="textBlock row h-40">
+                  <p>Published Fri, 29 Oct 2021 by Dan Merica and Kevin Lipak, CNN</p>
+                  <p>A Last-Chance Guide to the New York Mayor’s Race</p>
+                  <p>Fusion GPS was hired by a Democratic lawyer acting on behalf of campaign and committee.</p>
+
+                  <section class="d-flex align-self-end flex-column mr-0">
+                    <p>Read more</p>
+                    <img src="./FrameArrow.svg" alt="">
+                  </section>
+
+                </article>
+              </section>
+
+            </article>
 
 
-    </section>
+
+            <article class="d-flex h-25 flex-column pb-2">
+              <!-- -------------------- Small card with white background goes here. Replace this with code-------------------- -->
+<img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/q1-beef-taco-and-roasted-corn-with-tomato-and-carrot-salsa-0d8cc1f8.jpg" alt="Italian Trulli" width="173.89" height="126">
+<h2>Tacoskväll</h2>
+<p>Varje fredag äter folk tacos framför tv</p>
+            </article>
+
+              <article class="d-flex h-25 flex-column pb-2">
+                <!-- -------------------- Small card with white background goes here. Replace this with code-------------------- -->
+<img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/japanska-tacos-a53e2c7f.jpg" alt="Italian Trulli" width="173.89" height="126">
+              </article>
+
+
+
+        </section>
+  </section>
+
+  
+      <hr>
+        <footer>
+          <section id="ad">
+            <img src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/WBC_7095.jpg?format=2500w" alt="food">
+            <h3>Foodora</h3>
+          </section>
+        </footer>
 
   </main>
   </body>
