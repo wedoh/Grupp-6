@@ -105,12 +105,14 @@ P:nth-child(4) {
   border-radius: 10px;
 }
 
+/*logo*/
 .logo {
   font-size: 24px;
   font-family: Open Sans, sans-serif;
   color: #0A5582;
 }
 
+/*menu*/
 .nav-link {
   font-size: 13px;
   font-family: Open Sans, sans-serif;
@@ -121,13 +123,15 @@ P:nth-child(4) {
   padding-right: 30px;
 }
 
+/*search form*/
 .form-control {
   font-size: 13px;
   border-color: #1E2D37;
+  color: #1E2D37 !important;
 }
 
-.input-group-btn {
-  color: #1E2D37 !important;
+.has-search .form-control-feedback {
+  color: #1E2D37;
 }
 
 body {

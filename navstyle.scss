@@ -1,9 +1,11 @@
+/*logo*/
 .logo {
   font-size: 24px;
   font-family: $primary-font;
   color: $logo-color;
 }
 
+/*menu*/
  .nav-link {
   font-size: 13px;
   font-family: $primary-font;
@@ -14,11 +16,13 @@
   padding-right: 30px;
 }
 
+/*search form*/
 .form-control {
   font-size: 13px;
   border-color: $text-color;
+  color: $text-color !important;
 }
 
-.input-group-btn {
-  color: $text-color !important;
+.has-search .form-control-feedback {
+  color: $text-color;
 }
