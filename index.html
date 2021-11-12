@@ -23,9 +23,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Link list -->
-      <section class="collapse navbar-collapse justify-content-between container ml-0">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+      <section class="collapse navbar-collapse justify-content-between container" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <section class="navbarLinksDecoration" id="navbarLinks">
+          </section>
+
+
+          <!-- <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">News</a>
           </li>
           <li class="nav-item">
@@ -39,7 +43,8 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#">Contact</a>
-          </li>
+          </li> -->
+
         </ul>
         <!-- Search box -->
         <section class="input-group-btn">
@@ -59,15 +64,16 @@
           <!---------------------- Main Big-card goes here. Replace this with code ---------------------->
           <section class="container-card">
             <img src="./Card-Big.png" class="imageInArticle" alt="">
-            <article class="textBlock g-0 row ">
-              <section class="col-lg-10 col-sm g-0 pb-2">
+            <article class="textBlock row g-0">
+              <section class="col-lg-10 col-sm g-0 pb-3">
                 <p>Published Fri, 29 Oct 2021 by Roz</p>
                 <h2>Biden Begins a Diplomatic Marathon With a Visit to the Vatican</h2>
                 <p class="d-none d-lg-block">President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and a climate gathering in Glasgow.</p>
               </section>
 
-              <section class="d-flex flex-column col-lg-2 col-sm justify-content-lg-end">
-                <p>Read more <br> <img src="./FrameArrow.svg" alt=""></p>
+              <section class="d-flex flex-column col-lg-2 col-sm align-self-end">
+                <p>Read more</p>
+                <img src="./FrameArrow.svg" alt="">
               </section>
 
             </article>
@@ -87,7 +93,7 @@
                   <p>A Last-Chance Guide to the New York Mayor’s Race</p>
                   <p>Fusion GPS was hired by a Democratic lawyer acting on behalf of campaign and committee.</p>
 
-                  <section class="d-flex col-sm justify-content-lg-end">
+                  <section class="d-flex col-sm justify-content-lg-end justify-content-sm-start">
                     <p>Read more <br> <img src="./FrameArrow.svg" alt=""></p>
 
                   </section>
@@ -140,9 +146,11 @@
             <h3>Foodora</h3>
           </section>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
   </main>
   </body>
 </html>
