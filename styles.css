@@ -111,6 +111,17 @@ P:nth-child(4) {
   color: #0A5582;
 }
 
+.collapse {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.nav-link {
+  font-size: 13px;
+  font-family: Open Sans, sans-serif;
+  color: #1E2D37;
+}
+
 body {
   background-color: #ffffff;
 }
