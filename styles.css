@@ -130,6 +130,11 @@ P:nth-child(4) {
   color: #1E2D37 !important;
 }
 
+.tacos1 {
+  width: auto;
+  height: 100%;
+}
+
 body {
   background-color: #ffffff;
 }
