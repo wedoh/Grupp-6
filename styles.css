@@ -123,12 +123,15 @@ P:nth-child(4) {
 
 .form-control {
   font-size: 13px;
-  text-decoration-color: #1E2D37;
   border-color: #1E2D37;
 }
 
 .input-group-btn {
   color: #1E2D37 !important;
+}
+
+input {
+  color: #1E2D37;
 }
 
 body {

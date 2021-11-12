@@ -16,10 +16,13 @@
 
 .form-control {
   font-size: 13px;
-  text-decoration-color: $text-color;
   border-color: $text-color;
 }
 
 .input-group-btn {
   color: $text-color !important;
+}
+
+input {
+  color: $text-color;
 }
