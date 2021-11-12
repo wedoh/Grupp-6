@@ -112,14 +112,18 @@ P:nth-child(4) {
 }
 
 .collapse {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 100px;
 }
 
-.nav-link {
+a.nav-link {
   font-size: 13px;
   font-family: Open Sans, sans-serif;
   color: #1E2D37;
+}
+
+.nav-item {
+  padding-left: 30px;
 }
 
 body {
