@@ -105,6 +105,12 @@ P:nth-child(4) {
   border-radius: 10px;
 }
 
+.logo {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  color: #0A5582;
+}
+
 body {
   background-color: #ffffff;
 }
