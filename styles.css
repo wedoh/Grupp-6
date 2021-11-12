@@ -23,30 +23,6 @@
   height: 140px;
 }
 
-.has-search .form-control {
-  padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 2.375rem;
-  height: 2.375rem;
-  line-height: 2.375rem;
-  text-align: center;
-  pointer-events: none;
-  color: #aaa;
-}
-
-.navbar {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.form-control {
-  border-radius: 10px;
-}
-
 .container-card {
   position: relative;
   padding: 0px;
@@ -105,8 +81,49 @@ P:nth-child(4) {
   font-size: 10px;
 }
 
-.icon {
-  width: 78px;
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.navbar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  color: #0A5582;
+}
+
+.justify-content-between {
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+a.nav-link {
+  font-size: 13px;
+  font-family: Open Sans, sans-serif;
+  color: #1E2D37;
+}
+
+.nav-item {
+  padding-right: 30px;
 }
 
 body {

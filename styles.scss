@@ -2,8 +2,10 @@
 @import "colors.scss";
 @import "ad.scss";
 @import "typography.scss";
-@import "navbar.scss";
 @import "cardbig.scss";
+@import "navbar.scss";
+@import "navstyle.scss";
+@import "card-small.scss";
 
 body {
   background-color: $background-color;
