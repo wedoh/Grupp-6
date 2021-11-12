@@ -111,12 +111,7 @@ P:nth-child(4) {
   color: #0A5582;
 }
 
-.justify-content-between {
-  padding-left: 20px;
-  padding-right: 100px;
-}
-
-a.nav-link {
+.nav-link {
   font-size: 13px;
   font-family: Open Sans, sans-serif;
   color: #1E2D37;
