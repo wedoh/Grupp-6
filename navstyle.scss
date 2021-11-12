@@ -5,12 +5,16 @@
 }
 
 .collapse {
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 100px;
 }
 
-.nav-link {
+ a.nav-link {
   font-size: 13px;
   font-family: $primary-font;
   color: $text-color;
+}
+
+.nav-item {
+  padding-left: 30px;
 }
