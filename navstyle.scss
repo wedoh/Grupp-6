@@ -4,13 +4,22 @@
   color: $logo-color;
 }
 
-
  .nav-link {
   font-size: 13px;
   font-family: $primary-font;
-  color: $text-color;
+  color: $text-color !important;
 }
 
 .nav-item {
   padding-right: 30px;
+}
+
+.form-control {
+  font-size: 13px;
+  text-decoration-color: $text-color;
+  border-color: $text-color;
+}
+
+.input-group-btn {
+  color: $text-color !important;
 }
