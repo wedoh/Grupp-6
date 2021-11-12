@@ -69,6 +69,11 @@
   width: 100%;
 }
 
+.cardTwo p:nth-child(3) {
+  font-size: 12px;
+  font-family: Open Sans, sans-serif;
+}
+
 p {
   opacity: 100%;
   margin-bottom: 0px;
