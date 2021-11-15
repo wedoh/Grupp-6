@@ -125,6 +125,11 @@ P:nth-child(4) {
   padding-right: 10px;
 }
 
+@media only screen and (max-width: 992px) {
+  .navbarLinksDecoration a {
+    font-size: 20px;
+  }
+}
 /*logo*/
 .logo {
   font-size: 24px;
@@ -135,10 +140,6 @@ P:nth-child(4) {
 /*menu*/
 .nav-item {
   padding-right: 30px;
-}
-
-img {
-  float: left;
 }
 
 .tacos1 {
