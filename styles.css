@@ -43,6 +43,7 @@
 
 .imageInArticle {
   width: 100%;
+  object-fit: cover;
 }
 
 .cardTwo p:nth-child(3) {
