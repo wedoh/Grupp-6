@@ -23,6 +23,10 @@
   height: 140px;
 }
 
+hr {
+  color: #1E2D37;
+}
+
 .container-card {
   position: relative;
   padding: 0px;
@@ -38,11 +42,12 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
-  right: 15px !important;
+  margin: 0;
 }
 
 .imageInArticle {
   width: 100%;
+  object-fit: cover;
 }
 
 .cardTwo p:nth-child(3) {
