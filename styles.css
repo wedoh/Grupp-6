@@ -23,6 +23,10 @@
   height: 140px;
 }
 
+hr {
+  color: #1E2D37;
+}
+
 .container-card {
   position: relative;
   padding: 0px;
