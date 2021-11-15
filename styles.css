@@ -105,6 +105,10 @@ P:nth-child(4) {
   border-radius: 10px;
 }
 
+.navbarLinksDecoration {
+  display: inline-block;
+}
+
 /*logo*/
 .logo {
   font-size: 24px;
