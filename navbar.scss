@@ -26,5 +26,18 @@
 
 .navbarLinksDecoration
 {
-  display: inline-block;
+  ul {
+    display: inline-block;
+    list-style-type: none;
+  }
+  a {
+    font-family: $primary-font;
+    font-size: 13px;
+    color: $text-color;
+  }
+  li {
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
 }

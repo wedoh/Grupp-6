@@ -105,8 +105,19 @@ P:nth-child(4) {
   border-radius: 10px;
 }
 
-.navbarLinksDecoration {
+.navbarLinksDecoration ul {
   display: inline-block;
+  list-style-type: none;
+}
+.navbarLinksDecoration a {
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  color: #1E2D37;
+}
+.navbarLinksDecoration li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-right: 10px;
 }
 
 /*logo*/
