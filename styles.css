@@ -137,33 +137,28 @@ P:nth-child(4) {
   padding-right: 30px;
 }
 
-img {
-  float: left;
-}
-
 .tacos1 {
-  width: 173.89px;
-  height: 126px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .tacos2 {
-  width: 173.89px;
-  height: 126px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 #tacotext1 {
   font-family: Open Sans, sans-serif;
   font-weight: normal;
   font-size: 13px;
-  text-align: left;
-  margin-left: 20px;
 }
 
 #tacotext2 {
   font-family: Open Sans, sans-serif;
   font-style: regular;
   font-size: 13px;
-  text-align: left;
 }
 
 body {
