@@ -169,6 +169,10 @@ P:nth-child(4) {
   line-height: 1.25em;
 }
 
+ul {
+  padding: 0px;
+}
+
 body {
   background-color: #ffffff;
 }
