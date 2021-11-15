@@ -13,5 +13,4 @@ for (var i = 0; i < arrayLength; i++)
   myList += "<li class='nav-item'>" + links[i] + "</li>";
 }
 
-
 document.getElementById("navbarLinks").innerHTML = myList;
