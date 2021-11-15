@@ -111,7 +111,6 @@ P:nth-child(4) {
 }
 
 .navbarLinksDecoration ul {
-  display: inline-block;
   list-style-type: none;
 }
 .navbarLinksDecoration a {
@@ -122,6 +121,7 @@ P:nth-child(4) {
 .navbarLinksDecoration li {
   display: inline-block;
   justify-content: space-between;
+  padding-left: 10px;
   padding-right: 10px;
 }
 
@@ -133,14 +133,15 @@ P:nth-child(4) {
 }
 
 /*menu*/
-.nav-link {
+/*search form*/
+.form-control {
   font-size: 13px;
-  font-family: Open Sans, sans-serif;
+  border-color: #1E2D37;
   color: #1E2D37 !important;
 }
 
-.nav-item {
-  padding-right: 30px;
+.has-search .form-control-feedback {
+  color: #1E2D37;
 }
 
 /*search form*/

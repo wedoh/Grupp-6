@@ -6,23 +6,16 @@
 }
 
 /*menu*/
- .nav-link {
-  font-size: 13px;
-  font-family: $primary-font;
-  color: $text-color !important;
-}
+//  .nav-link {
+//   font-size: 13px;
+//   font-family: $primary-font;
+//   color: $text-color !important;
+// }
+
+// .nav-item {
+//   padding-right: 30px;
+// }
 
 .nav-item {
   padding-right: 30px;
-}
-
-/*search form*/
-.form-control {
-  font-size: 13px;
-  border-color: $text-color;
-  color: $text-color !important;
-}
-
-.has-search .form-control-feedback {
-  color: $text-color;
 }

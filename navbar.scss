@@ -27,7 +27,7 @@
 .navbarLinksDecoration
 {
   ul {
-    display: inline-block;
+    //display: inline-block;
     list-style-type: none;
   }
   a {
@@ -38,6 +38,9 @@
   li {
     display: inline-block;
     justify-content: space-between;
+    padding-left: 10px;
     padding-right: 10px;
+    //justify-content: space-between;
+    //padding-right: 10px;
   }
 }
