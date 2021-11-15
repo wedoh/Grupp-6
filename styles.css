@@ -157,8 +157,16 @@ P:nth-child(4) {
 
 #tacotext2 {
   font-family: Open Sans, sans-serif;
-  font-style: regular;
+  font-style: normal;
   font-size: 13px;
+}
+
+.hea {
+  font-size: 16px;
+}
+
+.li3 {
+  line-height: 1.25em;
 }
 
 body {
