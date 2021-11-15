@@ -161,6 +161,10 @@ P:nth-child(4) {
   font-size: 13px;
 }
 
+.tacotext3 {
+  line-height: 1.25em;
+}
+
 body {
   background-color: #ffffff;
 }
