@@ -141,38 +141,13 @@ P:nth-child(4) {
 
 /*search form*/
 .form-control {
-img {
-  float: left;
-}
-
-.tacos1 {
-  width: 173.89px;
-  height: 126px;
-}
-
-.tacos2 {
-  width: 173.89px;
-  height: 126px;
-}
-
-#tacotext1 {
-  font-family: Open Sans, sans-serif;
-  font-weight: normal;
   font-size: 13px;
   border-color: #1E2D37;
   color: #1E2D37 !important;
-  text-align: left;
 }
 
 .has-search .form-control-feedback {
   color: #1E2D37;
-}
-
-#tacotext2 {
-  font-family: Open Sans, sans-serif;
-  font-style: regular;
-  font-size: 13px;
-  text-align: left;
 }
 
 body {
