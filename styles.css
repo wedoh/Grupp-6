@@ -137,6 +137,10 @@ P:nth-child(4) {
   padding-right: 30px;
 }
 
+img {
+  float: left;
+}
+
 .tacos1 {
   width: 173.89px;
   height: 126px;
