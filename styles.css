@@ -106,7 +106,7 @@ P:nth-child(4) {
 }
 
 .navbarLinksDecoration {
-  display: inline;
+  display: inline-block;
 }
 
 /*logo*/
