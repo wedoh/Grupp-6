@@ -172,6 +172,11 @@ P:nth-child(4) {
 
 .li3 {
   line-height: 1.25em;
+  padding: 0px;
+}
+
+ul {
+  padding: 0px;
 }
 
 body {
