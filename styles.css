@@ -105,8 +105,19 @@ P:nth-child(4) {
   border-radius: 10px;
 }
 
-.navbarLinksDecoration {
-  display: inline;
+.navbarLinksDecoration ul {
+  list-style-type: none;
+}
+.navbarLinksDecoration a {
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  color: #1E2D37;
+}
+.navbarLinksDecoration li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .logo {
@@ -115,14 +126,16 @@ P:nth-child(4) {
   color: #0A5582;
 }
 
-.nav-link {
+/*menu*/
+/*search form*/
+.form-control {
   font-size: 13px;
-  font-family: Open Sans, sans-serif;
-  color: #1E2D37;
+  border-color: #1E2D37;
+  color: #1E2D37 !important;
 }
 
-.nav-item {
-  padding-right: 30px;
+.has-search .form-control-feedback {
+  color: #1E2D37;
 }
 
 body {
