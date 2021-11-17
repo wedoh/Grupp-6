@@ -17,32 +17,34 @@
 <body>
 
   <!-- Navbar START-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" id="primary-color">
     <a class="navbar-brand" href="#"> <h2 class="logo">Logotype</h2> </a>
 
-      <!-- Hamburger menu icon -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Link list -->
-<section class="container ml-0 pr-0">
+    <!-- Hamburger menu icon -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Link list -->
+    <section class="container ml-0 pr-0">
       <section class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav navbarLinksDecoration pl-0" id="navbarLinks"></ul>
-</section>
-<!-- Search box -->
-<section class="d-flex input-group-btn justify-content-end">
-  <form class="form-inline has-search d-none d-lg-block d-xl-block">
-    <span class="fa fa-search form-control-feedback"></span>
-    <input type="text" class="form-control mr-0" aria-label="search" placeholder="Search articles">
-  </form>
+      </section>
 
-</section>
-</section>
-</nav>
-<!-- Navbar END -->
+      <!-- Search box -->
+      <section class="d-flex input-group-btn justify-content-end">
+        <form class="form-inline has-search d-none d-lg-block d-xl-block">
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control mr-0" aria-label="search" placeholder="Search articles">
+        </form>
+
+      </section>
+    </section>
+  </nav>
+  <!-- Navbar END -->
 
 
-<main class="container mt-3">
+  <main class="container mt-3">
     <section class="row">
       <section class="col-sm col-lg-7">
         <!---------------------- Main Big-card starts here ---------------------->
@@ -50,9 +52,9 @@
           <img src="./Card-Big.png" class="imageInArticle h-100" alt="">
           <article class="textBlock pb-3 ">
 
-              <p>Published Fri, 29 Oct 2021 by Roz</p>
-              <h2>Biden Begins a Diplomatic Marathon With a Visit to the Vatican</h2>
-              <p class="d-none d-lg-block">President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and a climate gathering in Glasgow.</p>
+            <p>Published Fri, 29 Oct 2021 by Roz</p>
+            <h2>Biden Begins a Diplomatic Marathon With a Visit to the Vatican</h2>
+            <p class="d-none d-lg-block">President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and a climate gathering in Glasgow.</p>
             <section class="d-flex col-sm align-self-end justify-content-end">
               <p>Read more <br><img src="./FrameArrow.svg" alt=""></p>
 
@@ -65,9 +67,10 @@
       <section class="col-sm col-lg h-100">
         <section class="row">
           <section class="col">
-          <!-- -------------------- First card in the right column goes here. ---------------------->
-          <section class="container-card ">
-            <img src="./Card-Big 2.png" class="imageInArticle" alt="">
+
+            <!-- -------------------- First card in the right column goes here. ---------------------->
+            <section class="container-card ">
+              <img src="./Card-Big 2.png" class="imageInArticle" alt="">
               <article class="textBlock h-40 col-sm">
                 <p>Published Fri, 29 Oct 2021 by Dan Merica and Kevin Lipak, CNN</p>
                 <h2>A Last-Chance Guide to the New York Mayor’s Race</h2>
@@ -76,62 +79,63 @@
                   <p>Read more <br> <img src="./FrameArrow.svg" alt=""></p>
                 </section>
               </article>
+            </section>
           </section>
         </section>
-      </section>
-      <!-- -------------------- First card in the right column END ---------------------->
-      <section class="row">
-        <section class="col">
-        <!-- -------------------- Second card in the right column goes here. ---------------------->
-        <article class="row mt-2">
+        <!-- -------------------- First card in the right column END ---------------------->
+
+        <section class="row">
           <section class="col">
-            <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/q1-beef-taco-and-roasted-corn-with-tomato-and-carrot-salsa-0d8cc1f8.jpg" Class="tacos1 img-fluid" alt="">
+
+            <!-- -------------------- Second card in the right column goes here. ---------------------->
+            <article class="row mt-2">
+              <section class="col">
+                <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/q1-beef-taco-and-roasted-corn-with-tomato-and-carrot-salsa-0d8cc1f8.jpg" Class="tacos1 img-fluid" alt="">
+              </section>
+              <section class="col">
+                <h2 class="hea">The surprising History of Roe v. Wade</h2>
+                <p id="tacotext1">The Constitution of the US protects a pregnant
+                  woman's liberty to choose to have an abortion.</p>
+                </section>
+              </article>
+
+              <!-- -------------------- Second card in the right column END ---------------------->
+
+              <!-- -------------------- Third card in the right column goes here. ---------------------->
+              <article class="row mt-2">
+                <section class="col">
+                  <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/japanska-tacos-a53e2c7f.jpg" Class="tacos2 img-fluid" alt="">
+                </section>
+                <section class="col">
+                  <h2 class="hea">The Common Halloween Candy Mistakes That Parents Make </h2>
+                  <ul id="tacotext2">
+                    <li class ="li3">Don't stress about the sweet tooth</li>
+                    <li class ="li3">Don't put the good stuff out of reach</li>
+                    <li class ="li3">Set limits</li>
+                  </ul>
+                </section>
+              </article>
+
+              <!-- -------------------- Third card in the right column END ---------------------->
+            </section>
           </section>
-          <section class="col">
-            <h2 class="hea">The surprising History of Roe v. Wade</h2>
-            <p id="tacotext1">The Constitution of the US protects a pregnant
-              woman's liberty to choose to have an abortion.</p>
-            </section>
-          </article>
-
-          <!-- -------------------- Second card in the right column END ---------------------->
-
-          <!-- -------------------- Third card in the right column goes here. ---------------------->
-          <article class="row mt-2">
-            <section class="col">
-              <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/japanska-tacos-a53e2c7f.jpg" Class="tacos2 img-fluid" alt="">
-            </section>
-            <section class="col">
-              <h2 class="hea">The Common Halloween Candy Mistakes That Parents Make </h2>
-              <ul id="tacotext2">
-                <li class ="li3">Don't stress about the sweet tooth</li>
-                <li class ="li3">Don't put the good stuff out of reach</li>
-                <li class ="li3">Set limits</li>
-              </ul>
-            </section>
-          </article>
-
-          <!-- -------------------- Third card in the right column END ---------------------->
         </section>
       </section>
     </section>
-  </section>
-</section>
 
 
-
-<hr>
-<footer>
-  <section id="ad">
-    <img src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/WBC_7095.jpg?format=2500w" alt="food">
-    <h3>Foodora</h3>
-  </section>
-</footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+    <hr>
+    <footer>
+      <section id="ad">
+        <img src="https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/WBC_7095.jpg?format=2500w" alt="food">
+        <h3>Foodora</h3>
+      </section>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 
 
 </body>

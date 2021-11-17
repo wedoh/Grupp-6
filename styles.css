@@ -6,6 +6,10 @@
 /*70% opacity*/
 /*Border and stroke*/
 /*STYLES*/
+#primary-color {
+  color: #1E2D37;
+}
+
 /*settings for ad*/
 #ad {
   position: relative;
@@ -108,7 +112,7 @@ P:nth-child(4) {
   line-height: 2.375rem;
   text-align: center;
   pointer-events: none;
-  color: #aaa;
+  color: #1E2D37;
 }
 
 .navbar {
@@ -117,6 +121,8 @@ P:nth-child(4) {
 
 .form-control {
   border-radius: 10px;
+  border-color: #1E2D37;
+  color: #1E2D37;
 }
 
 .navbarLinksDecoration ul {
