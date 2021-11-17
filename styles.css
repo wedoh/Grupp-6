@@ -169,16 +169,19 @@ P:nth-child(4) {
   font-family: Open Sans, sans-serif;
   font-weight: normal;
   font-size: 13px;
+  color: #1E2D37;
 }
 
 #tacotext2 {
   font-family: Open Sans, sans-serif;
   font-style: normal;
   font-size: 13px;
+  color: #1E2D37;
 }
 
 .hea {
   font-size: 16px;
+  color: #1E2D37;
 }
 
 .li3 {
@@ -203,6 +206,10 @@ ul {
     font-size: 11px;
   }
 }
+input::placeholder {
+  color: #1E2D37 !important;
+}
+
 body {
   background-color: #ffffff;
 }
