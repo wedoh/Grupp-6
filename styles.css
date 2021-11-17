@@ -116,7 +116,7 @@ P:nth-child(4) {
 .navbarLinksDecoration a {
   font-family: Open Sans, sans-serif;
   font-size: 13px;
-  color: #1E2D37;
+  color: #1E2D37 !important;
 }
 .navbarLinksDecoration li {
   display: inline-block;
@@ -138,10 +138,6 @@ P:nth-child(4) {
 }
 
 /*menu*/
-.nav-item {
-  padding-right: 30px;
-}
-
 .tacos1 {
   width: 100%;
   height: auto;

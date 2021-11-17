@@ -34,7 +34,7 @@
   a {
     font-family: $primary-font;
     font-size: 13px;
-    color: $text-color;
+    color: $text-color !important;
   }
   li {
     display: inline-block;
